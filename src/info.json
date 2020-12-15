@@ -1,0 +1,13 @@
+{
+
+"NavbarInfo" : {
+    "home": "Home",
+    "Products": "Products",
+    "Cart": "Cart",
+    "Login": "Login",
+    "Register": "Register",
+    "logo": {
+     "location": "https://portfolio-atc.s3-sa-east-1.amazonaws.com/logo.png",
+      "key": "portfolio-logo"
+    }
+}

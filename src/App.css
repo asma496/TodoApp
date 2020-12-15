@@ -1,4 +1,4 @@
-.mytodo{
+/* .mytodo{
     margin: auto;
     text-align: center;
     border: solid 4px darkblue ;
@@ -27,4 +27,19 @@ background-color: rgb(92, 191, 224);
 border-radius: 0 25px 25px 0;
 outline: none;
 }
+     */
+.link{
+    padding: 20px;
+    text-decoration: none;
+    color: wheat;
+    font-size: 25px;
     
+}
+
+.nav{
+    border: solid 4px black;
+    height: 80px;
+    background-color: rgb(8, 48, 48);
+    
+
+}
