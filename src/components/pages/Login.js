@@ -1,9 +1,10 @@
 import React from 'react'
+import Logform from '../Logform'
 
 const Login = () => {
     return (
         <div>
-       Login     
+       <Logform />   
         </div>
     )
 }
