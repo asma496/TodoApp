@@ -1,24 +1,45 @@
 import React from 'react'
 import './App.css'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+// import {
+//   BrowserRouter as Router,
+//   Switch,
+//   Route,
+//   Link
+// } from "react-router-dom";
 import Cart from './components/pages/Cart';
 import Login from './components/pages/Login';
 import Products from './components/pages/Products';
 import Register from './components/pages/Register';
 import Home from './components/pages/Home'
+import { Route, Switch } from "react-router-dom";
+import { makeStyles } from "@material-ui/core/styles"
+import Navbar from './components/Navbar';
 
 
+const useStyles = makeStyles({});
 
 function App() {
-    return (
-        <div>
+    const classes = useStyles();
 
+    return (
+        <div className={classes.container}>
+        <Navbar />
+        <Switch>
+          <Route exact from="/" render={props => <Home {...props} />} />
+          <Route exact path="/login" render={props => <Login {...props} />} />
+          <Route exact path="/register" render={props => <Register {...props} />} />
+        </Switch>
+      </div>
+    
+       
+          
+      )
+  }
+  
+    
+{/* 
             <Router>
+            
 <nav className='nav'>
     <ul>
     <Link className='link' to='/'>HOME</Link>
@@ -37,11 +58,8 @@ function App() {
     <Route path='/'> <Home /> </Route>
 
 </Switch>
-
             </Router>
-            
-        </div>
-    )
-}
+ */}
+
 
 export default App
