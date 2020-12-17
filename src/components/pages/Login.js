@@ -1,10 +1,11 @@
 import React from 'react'
-import Logform from '../Logform'
+import Mainformwork from '../../Mainformwork'
 
 const Login = () => {
     return (
         <div>
-       <Logform />   
+       {/* <Logform />  */}
+       <Mainformwork />  
         </div>
     )
 }

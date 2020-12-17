@@ -1,0 +1,15 @@
+.rang{
+    background-color: rgb(8, 48, 48)!important;
+}
+ .rang:hover{
+     background-color: wheat!important;
+     color: rgb(8, 48, 48)!important;
+ }
+ .txt:focus{
+    background-color: rgb(8, 48, 48)!important;
+ 
+ }
+ .txt:active{
+    background-color: rgb(8, 48, 48)!important;
+ 
+ }
