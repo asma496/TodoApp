@@ -11,7 +11,7 @@ import Login from './components/pages/Login';
 import Products from './components/pages/Products';
 import Register from './components/pages/Register';
 import Home from './components/pages/Home'
-import { Route, Switch } from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import { makeStyles } from "@material-ui/core/styles"
 import Navbar from './components/Navbar';
 
@@ -23,12 +23,15 @@ function App() {
 
     return (
         <div className={classes.container}>
+          <Router>
         <Navbar />
+        
         <Switch>
           <Route exact from="/" render={props => <Home {...props} />} />
           <Route exact path="/login" render={props => <Login {...props} />} />
           <Route exact path="/register" render={props => <Register {...props} />} />
         </Switch>
+        </Router>
       </div>
     
        

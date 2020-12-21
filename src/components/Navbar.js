@@ -57,12 +57,12 @@ const Navbar = props => {
       pageURL: "/"
     },
     {
-      menuTitle: "Contact",
-      pageURL: "/contact"
+      menuTitle: "Login",
+      pageURL: "/login"
     },
     {
-      menuTitle: "About",
-      pageURL: "/about"
+      menuTitle: "Register",
+      pageURL: "/register"
     }
   ];
 
@@ -119,15 +119,15 @@ const Navbar = props => {
               </Button>
               <Button
                 variant="contained"
-                onClick={() => handleButtonClick("/contact")}
+                onClick={() => handleButtonClick("/login")}
               >
-                CONTACT
+                login
               </Button>
               <Button
                 variant="contained"
-                onClick={() => handleButtonClick("/about")}
+                onClick={() => handleButtonClick("/register                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ")}
               >
-                ABOUT
+                Register
               </Button>
             </div>
           )}
